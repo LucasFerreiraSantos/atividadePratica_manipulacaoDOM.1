@@ -1,4 +1,8 @@
-
+function mudarParagrafo() {
+  const paragrafo = document.getElementById("paragrafo");
+  const nomeUsuario = prompt("Qual é o seu nome?");
+  paragrafo.innerText = `E aí ${nomeUsuario}. Você está deixando o seu site dinâmico.`;
+}
 
 // 1. Crie uma página HTML que tenha um botão com o texto CLIQUE
 // AQUI PARA MUDAR O TEXTO e logo abaixo do botão um parágrafo
