@@ -1,4 +1,14 @@
+const paragrafo = document.getElementById("paragrafo");
+let contador = 0;
+function incrementarContador() {
+  contador++;
+  paragrafo.innerText = `O contador está com ${contador} cliques`;
+}
 
+function zerarContador() {
+  contador = 0;
+  paragrafo.innerText = "";
+}
 
 // 2. Crie uma página que tenha o título "Contador de Cliques". Na
 // página deve ter 2 botões, um deles deve estar escrito INCREMENTAR
